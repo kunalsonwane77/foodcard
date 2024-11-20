@@ -1,0 +1,85 @@
+.foodcontainer{
+    
+    margin: 50px auto;
+    width: 90%;
+    height: fit-content;
+    border: 1px solid red;
+}
+.card{
+    margin: 50px  ;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 250px;
+    height: 320px;
+}
+
+.card>img{
+    width: 60%;
+    height: 150px;
+    
+}
+.card>button{
+    padding: 10px;
+    background-color: #23c55e;
+    width: 90%;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+.para{ 
+    margin: auto;
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 70%;
+}
+.mycart{
+    height: fit-content;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 0.5px solid olive;
+}
+.inputdata{
+    margin: 10px;
+}
+.inputdata>input{
+    height: 40px;
+    margin: 10px;
+    border-radius: 18px;
+}
+.inputdata>button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #23c55e;
+    border: none;
+    color: white;
+}
+.cart{
+    
+    width: 100%;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+
+}
+.cart>img{
+    height: 50px;
+    width: 50px;
+}
